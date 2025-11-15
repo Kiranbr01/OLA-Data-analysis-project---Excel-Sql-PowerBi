@@ -1,12 +1,12 @@
-# OLA-Data-analysis-project---Excel-Sql-PowerBi
+
 # 🚖 OLA Mobility Data Analytics Project  
 ### Power BI • SQL • Excel • Ride Insights • Cancellations • Revenue • Ratings • KPI Dashboard
 
 This project is an end-to-end **Business Intelligence & Data Analytics case study** based on OLA's ride-hailing operations.  
-It showcases complete BI skills: **Excel cleaning → SQL analysis → Power BI dashboarding → Insight generation**.
+It showcases complete BI skills: **Excel cleaning → SQL analysis → Power BI dashboarding**
 
 ## Dataset Used --
-- <a href="
+- <a href="https://github.com/Kiranbr01/OLA-Data-analysis-project---Excel-Sql-PowerBi/blob/main/Bookings.csv">Dataset</a>
 
 ---
 
@@ -31,28 +31,31 @@ The goal is to understand operational inefficiencies, customer behavior, and rid
 | **Excel** | Data Cleaning, Formatting, Feature Engineering |
 | **SQL (MySQL Workbench)** | KPI Calculation, Aggregations, Ride Insights |
 | **Power BI** | Dashboard Building, DAX KPIs, Interactive Visualizations |
-| **PDF Report** | Business Summary and Findings |
 
 ---
 
 ## 📊 Power BI Dashboard (Screenshots)
 
-> *(Upload screenshots to `powerbi/screenshots` for these links to work)*
-
 ### 🔹 Overview Dashboard  
-![Overview](powerbi/screenshots/overview.png)
+<img width="1285" height="734" alt="OverallBooking status" src="https://github.com/user-attachments/assets/c793b479-18bf-4012-abf5-b6d2784c8494" />
+
+
 
 ### 🔹 Vehicle Type Performance  
-![Vehicle Types](powerbi/screenshots/vehicle_types.png)
+<img width="1299" height="729" alt="Vehicle Type" src="https://github.com/user-attachments/assets/b141e7c0-9507-423c-a530-3256013dbd4d" />
+
 
 ### 🔹 Revenue Dashboard  
-![Revenue](powerbi/screenshots/revenue.png)
+<img width="1282" height="728" alt="Revenue" src="https://github.com/user-attachments/assets/40ea103f-0f4c-4e50-a908-cc07e38ccfd6" />
+
 
 ### 🔹 Cancellation Analysis  
-![Cancellations](powerbi/screenshots/cancellations.png)
+<img width="1282" height="722" alt="Cancellation" src="https://github.com/user-attachments/assets/b369e6c6-c3ac-4b86-bdda-898a17c32589" />
+
 
 ### 🔹 Rating Insights  
-![Ratings](powerbi/screenshots/ratings.png)
+<img width="1306" height="749" alt="Ratings" src="https://github.com/user-attachments/assets/b0708356-7649-415f-8592-125b38995143" />
+
 
 ---
 
@@ -131,11 +134,4 @@ The dataset includes:
 
 ---
 
-## 🧮 SQL Query Examples
 
-### 1️⃣ Cancellation Breakdown  
-```sql
-SELECT cancelled_by, COUNT(*) AS total_cancellations
-FROM ola_bookings
-WHERE booking_status = 'Cancelled'
-GROUP BY cancelled_by;
