@@ -1,4 +1,4 @@
----SQL OUESTIONS
+---SQL  OUESTIONS
 
 1. Retrieve all successful bookings:
  SELECT * FROMbookings WHERE Booking_Status = 'Success';
